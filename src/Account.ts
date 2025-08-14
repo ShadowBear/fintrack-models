@@ -1,5 +1,5 @@
-import { type Transaction } from "./Transaction";
-import { type User } from "./User";
+import { Transaction } from "./Transaction";
+import { User } from "./User";
 
 export interface Account {
   id: string;
