@@ -1,0 +1,23 @@
+{
+  "name": "fintrack-models",
+  "description": "",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "keywords": [],
+  "author": "LSI",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
