@@ -7,10 +7,14 @@ export interface Transaction {
   userId: string;
   accountId: string;
   categoryId: string;
-  amount: number;
+  date: string; // ISO string
+  name: string;
   type: "income" | "expense";
   note?: string;
-  date: string; // ISO string
+  reference?: string;
+  saldo: number;
+  amount: number;
+  currency: string;
   createdAt: string;
   updatedAt: string;
 
