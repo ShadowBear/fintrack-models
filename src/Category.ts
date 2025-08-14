@@ -1,5 +1,5 @@
-import { Transaction } from "./Transaction";
-import { User } from "./User";
+import { type Transaction } from "./Transaction";
+import { type User } from "./User";
 
 export interface Category {
   id: string;
