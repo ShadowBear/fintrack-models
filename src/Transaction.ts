@@ -16,7 +16,7 @@ export interface Transaction {
   amount: number;
   currency: string;
   createdAt: string;
-  updatedAt: string;
+  updatedAt?: string;
 
   account?: Account;
   category?: Category;
