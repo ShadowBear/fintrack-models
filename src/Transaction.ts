@@ -11,7 +11,7 @@ export interface Transaction {
   name: string;
   type: "income" | "expense";
   note?: string;
-  reference?: string;
+  references?: string;
   saldo: number;
   amount: number;
   currency: string;
