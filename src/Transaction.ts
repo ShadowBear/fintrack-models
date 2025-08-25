@@ -7,6 +7,7 @@ export interface Transaction {
   userId: string;
   accountId: string;
   categoryId: string;
+  categoryName: string;
   date: string; // ISO string
   name: string;
   type: "income" | "expense";
@@ -17,8 +18,4 @@ export interface Transaction {
   currency: string;
   createdAt: string;
   updatedAt?: string;
-
-  account?: Account;
-  category?: Category;
-  user?: User;
 }

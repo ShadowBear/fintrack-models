@@ -3,12 +3,11 @@ import { type User } from "./User";
 
 export interface Category {
   id: string;
-  userId: string;
+  user_id: string;
   name: string;
-  type: "income" | "expense";
-  createdAt: string;
-  updatedAt: string;
+  icon: string;
+  category_goal: number;
+  color?: string;
 
   transactions?: Transaction[];
-  user?: User;
 }
