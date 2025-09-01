@@ -3,10 +3,10 @@ import { type User } from "./User";
 
 export interface Category {
   id: string;
-  user_id: string;
+  userId: string;
   name: string;
   icon: string;
-  category_goal: number;
+  categoryGoal: number;
   color?: string;
 
   transactions?: Transaction[];
